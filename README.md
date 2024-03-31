@@ -8,6 +8,8 @@
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Endpoints](#-endpoints)
 - [Como usar o projeto](#-como-usar-o-projeto)
+- [Documentação](#-documentação)
+- [Autor](#️-autor)
 
 ## 📖 Sobre
 
@@ -26,13 +28,11 @@ lógica de produtos.
 
 Consumir a API é muito simples, pode ser consumida através do Postman ou hospedada no Render, através do link:
 
-[![Deployed on Render](https://img.shields.io/badge/Deployed%20on-Render-blue?style=for-the-badge&logo=render)](https://sua-api.com)
+[![Deployed on Render](https://img.shields.io/badge/Deployed%20on-Render-blue?style=for-the-badge&logo=render)](https://api-shoppub-drf.onrender.com/)
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://galactic-space-475622.postman.co/collection/26400668-cd2e8982-2591-4cc8-bef4-53419483bb3e?source=rip_markdown)
 
 ### Autenticação
-
-### POST /api-token-auth/
 
 Para consumir a API, necessário seguir o fluxo de autenticação. Sendo preciso criar um usuário no django admin com o
 comando `python manage.py createsuperuser`, e acessar o endpoint do token `api-token-auth/`.
@@ -42,7 +42,7 @@ comando `python manage.py createsuperuser`, e acessar o endpoint do token `api-t
 ```json
 {
   "username": "admin",
-  "password": "admin"
+  "password": "123456"
 }
 ```
 
@@ -55,6 +55,10 @@ O token gerado deve ser passado no header `Authorization` para acessar os demais
 ```
 
 ## Django Admin
+
+Acessar o Django Admin através do link:
+
+[![Django Admin](https://img.shields.io/badge/Django%20Admin-blue?style=for-the-badge&logo=django)](https://api-shoppub-drf.onrender.com/admin/login/?next=/admin/)
 
 O Django Admin é uma ferramenta poderosa para gerenciar os dados do projeto. Para acessar o admin, é necessário criar um
 super usuário com o comando:
@@ -92,7 +96,7 @@ $ python manage.py createsuperuser
 
 ```bash
     # Clonar o repositório
-    $ git clone
+    $ git clone https://github.com/matheus-feu/api_shoppub_drf.git
 ```
 
 ```bash
@@ -106,5 +110,17 @@ $ python manage.py createsuperuser
     $ python manage.py runserver
 ```
 
----
+## 📝 Documentação
+
+Através do link abaixo, é possível acessar a documentação da API:
+
+[![Postman](https://img.shields.io/badge/Postman-blue?style=for-the-badge&logo=postman)](https://documenter.getpostman.com/view/26400668/2sA35HVzdf)
+
+## 🧙‍♂️️ Autor
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/matheus-feu)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue)](https://www.linkedin.com/in/matheus-feu-558558186/)
+[![Gmail](https://img.shields.io/badge/Email-red?style=flat&logo=gmail&labelColor=red)](mailto:matheusfeu@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=flat&logo=Instagram&logoColor=white)](https://www.instagram.com/math_feu/)
+
 
