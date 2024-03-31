@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="Black">
+    <option name="sdkName" value="Python 3.11 (api_shoppub_drf)" />
+  </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="1fca3957-737f-45f9-be56-b5a337e52f1f" />
   </component>
