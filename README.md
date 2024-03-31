@@ -116,6 +116,16 @@ Através do link abaixo, é possível acessar a documentação da API:
 
 [![Postman](https://img.shields.io/badge/Postman-blue?style=for-the-badge&logo=postman)](https://documenter.getpostman.com/view/26400668/2sA35HVzdf)
 
+## ♾️ Fontes
+
+Links úteis para o desenvolvimento do projeto:
+
+- [Django Rest Framework](https://www.django-rest-framework.org/)
+- [Django](https://www.djangoproject.com/)
+- [Authentication](https://www.django-rest-framework.org/api-guide/authentication/)
+- [Generic Views](https://www.django-rest-framework.org/api-guide/generic-views/)
+- [Django Admin](https://docs.djangoproject.com/en/3.2/ref/contrib/admin/)
+
 ## 🧙‍♂️️ Autor
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/matheus-feu)
